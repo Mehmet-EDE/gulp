@@ -9,6 +9,12 @@
   "author": "EDE",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-minify-html": "^1.0.6",
+    "gulp-minify-inline-js": "^1.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^2.0.0"
   }
 }
