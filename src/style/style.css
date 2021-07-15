@@ -1,0 +1,21 @@
+*{
+    outline: none;
+}
+body{
+    background: #807d7d23;
+}
+.input{
+    background: transparent;
+    border:none;
+    box-shadow: 3px 1px 5px black;
+    border-radius: 5%;
+    
+}
+.input:active{
+    transition: 0.3s;
+border-bottom: black 1px solid;
+}
+.input:focus{
+    transition: 0.3s;
+    border-bottom: black 1px solid
+}

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"gulp"
   },
   "author": "EDE",
   "license": "ISC",
@@ -12,6 +12,9 @@
     "gulp": "^4.0.2"
   },
   "dependencies": {
+    "browser-sync": "^2.27.4",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-minify-html": "^1.0.6",
     "gulp-minify-inline-js": "^1.0.0",
     "gulp-uglify": "^3.0.2",
